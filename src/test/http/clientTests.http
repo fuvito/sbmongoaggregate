@@ -1,0 +1,43 @@
+###
+### All the students
+GET http://localhost:8080/students/
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+
+###
+### Get One Specific Student
+GET http://localhost:8080/students/679d308733082c1df32f6ad6
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+
+###
+### Counts By State
+GET http://localhost:8080/students/countsbystate
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+
+###
+### Counts By Grade
+GET http://localhost:8080/students/countsbygrade
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+
+###
+### PingTest
+GET http://localhost:8080/pingtest
+Accept: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.3.2.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+
+
+
+
+
